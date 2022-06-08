@@ -1,0 +1,84 @@
+body{
+  background-color: lightblue;
+}
+#hierba{
+  width: auto;
+  height:250px;
+  background-color: lightgreen;
+  position: relative;
+  top: 700px;
+}
+
+@keyframes flor {
+  0% {transform: rotate(0deg); }
+  100%{transform: rotate(360deg);}
+}
+
+#flor{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightblue;
+  position: absolute;
+  top: 450px;
+  left: 800px;
+  animation: flor 4s infinite linear;
+  z-index: 2;
+}
+
+.petalo{
+  width: 100px;
+  height: 120px;
+  background-color: lightyellow;
+  border-radius: 0% 100% 0% 100%;
+  position: relative;
+  z-index: 2;
+}
+
+#p1{
+  top: -120px;
+  left: -100px;
+  z-index: 2;
+}
+
+#p2{
+  top: -95px;
+  left: 25px;
+  z-index: 2;
+}
+
+#p3{
+  top: -350px;
+  left: 35px;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+
+
+#p4{
+  top: -340px;
+  left: -110px;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+.palo{
+  height:320px;
+  width: 25px;
+  background-color: green;
+  position: absolute;
+  top: 490px;
+  left:800px;
+  z-index: 1;
+}
+
+#bola{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:orange;
+  position: absolute;
+  top: 445px;
+  left: 790px;
+  z-index: 2;
+}

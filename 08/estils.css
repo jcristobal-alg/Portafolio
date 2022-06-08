@@ -1,0 +1,432 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.contenedor{
+  width:1600px ;
+  height:1000px ;
+  background-color: orange;
+  position: fixed;
+  left: 142px;
+}
+
+#suelo{
+  width:1600px ;
+  height:350px ;
+  background-color: brown;
+  position: absolute;
+  bottom:0px;
+  z-index: 20;
+  border-radius: 0% 50% 10% 0% / 20% 77% 0% 10%  ;
+}
+
+#casoplon{
+  width:550px ;
+  height:350px ;
+  background-color: white;
+  position: absolute;
+  z-index: 20;
+  top:400px;
+  left: 50px;
+}
+
+.ventana{
+  width:100px ;
+  height:30px ;
+  background-color: #FFCC67;
+  position: absolute;
+  float: left;
+  top:50px;
+  left:30px;
+  z-index: 21;
+}
+
+.ventana2{
+  width:100px ;
+  height:30px ;
+  background-color: #FFCC67;
+  position: absolute;
+  float: left;
+  top:50px;
+  left:160px;
+  z-index: 21;
+}
+
+.ventana3{
+  width:100px ;
+  height:30px ;
+  background-color: #FFCC67;
+  position:absolute;
+  float: left;
+  top:0px;
+  left:130px;
+  z-index: 21;
+}
+
+.ventanote1{
+  width:100px ;
+  height:80px ;
+  background-color: #FFCC67;
+  position:absolute;
+  float: left;
+  top:0px;
+  left:130px;
+  z-index: 21;
+}
+
+.ventana4{
+  width:100px ;
+  height:30px ;
+  background-color: #FFCC67;
+  position: absolute;
+  float: left;
+  top:100px;
+  left:130px;
+  z-index: 21;
+}
+
+.ventana5{
+  width:100px ;
+  height:30px ;
+  background-color: #FFCC67;
+  position: absolute;
+  float: left;
+  top:100px;
+  left:0px;
+  z-index: 21;
+}
+
+.ventana6{
+  width:100px ;
+  height:30px ;
+  background-color: #FFCC67;
+  position: absolute;
+  float: left;
+  top:100px;
+  left:-130px;
+  z-index: 21;
+}
+
+.ventanote2{
+  width:100px ;
+  height:80px ;
+  background-color: #FFCC67;
+  position:absolute;
+  float: left;
+  top:50px;
+  left:-260px;
+  z-index: 21;
+}
+
+#tejado{
+  width:610px ;
+  height:120px ;
+  background-color: #AB7711;
+  position: absolute;
+  z-index: 22;
+  top:-150px;
+  left: -190px;
+  clip-path: polygon(33% 0, 33% 0, 0 34%, 8% 34%, 0 69%, 8% 70%, 0 100%, 100% 100%, 92% 69%, 100% 67%, 92% 33%, 100% 33%, 67% 0);
+}
+
+#chimney{
+  width:100px ;
+  height:120px ;
+  background-color: #895B00;
+  position: absolute;
+  z-index: 21;
+  top:-160px;
+  left: 240px;
+}
+
+#chimney2{
+  width:105px ;
+  height:10px ;
+  background-color: white;
+  position: absolute;
+  z-index: 21;
+  top:-170px;
+  left: 238px;
+}
+
+#puerta{
+  width:100px ;
+  height:100px ;
+  background-color: black;
+  position: absolute;
+  z-index: 23;
+  top:200px;
+  left: 15px;
+}
+
+#puerta2{
+  width:100px ;
+  height:100px ;
+  background-color: black;
+  position: absolute;
+  z-index: 23;
+  top:200px;
+  left: 115px;
+}
+
+#detallepuerta{
+  width:3px ;
+  height:100px ;
+  background-color: green;
+  position: absolute;
+  z-index: 23;
+  top:200px;
+  left: 114px;
+}
+
+.detallepuerta2{
+  width:13px ;
+  height:13px ;
+  background-color: grey;
+  position: absolute;
+  z-index: 23;
+  top:250px;
+  left: 127px;
+  border-radius: 50%;
+}
+
+.detallepuerta3{
+  width:13px ;
+  height:13px ;
+  background-color: grey;
+  position: absolute;
+  z-index: 23;
+  top:250px;
+  left: 90px;
+  border-radius: 50%;
+}
+
+#casoplon2{
+    width:800px ;
+    height:500px ;
+    background-color: grey;
+    position: absolute;
+    z-index: 19;
+    top:200px;
+    left:0px;
+}
+
+.v1{
+  width:200px ;
+  height:60px ;
+  background-color: #FFCC67;
+  position: absolute;
+  z-index: 20;
+  top:60px;
+  left:30px;
+}
+
+.v2{
+  width:200px ;
+  height:60px ;
+  background-color: #FFCC67;
+  position: absolute;
+  z-index: 20;
+  top:60px;
+  left:300px;
+}
+
+.v3{
+  width:200px ;
+  height:60px ;
+  background-color: #FFCC67;
+  position: absolute;
+  z-index: 20;
+  top:60px;
+  left:570px;
+}
+
+.v4{
+  width:200px ;
+  height:60px ;
+  background-color: #FFCC67;
+  position: absolute;
+  z-index: 20;
+  top:170px;
+  left:570px;
+}
+
+.v5{
+  width:200px ;
+  height:60px ;
+  background-color: #FFCC67;
+  position: absolute;
+  z-index: 20;
+  top:170px;
+  left:30px;
+}
+
+#sol{
+  width:300px ;
+  height:300px ;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  top:-350px;
+  left:1150px;
+}
+
+#nube1 {
+  width: 335px;
+  height:133px;
+  z-index: 21;
+  border-radius: 56% 44% 70% 30% / 30% 55% 45% 70% ;
+  background-color: #FDD27C;
+  margin-top: -360px;
+  animation-name: nube11;
+  animation-duration: 45s;
+}
+
+@keyframes nube11 {
+0%{transform: translateX(0px);}
+100%{transform: translateX(2002px);}
+}
+
+#nube2 {
+  width: 270px;
+  height:85px;
+  z-index: 21;
+  border-radius: 56% 44% 70% 30% / 30% 55% 45% 70% ;
+  background-color: #FDD27C;
+  margin-top: -30px;
+  margin-left: 600px;
+  animation-name: nube22;
+  animation-duration: 45s;
+}
+
+@keyframes nube22 {
+0%{transform: translateX(0px);}
+100%{transform: translateX(2002px);}
+}
+
+
+.roca1{
+  width:50px ;
+  height:50px ;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  top:-0px;
+  left:1150px;
+  border-radius: 48% 52% 29% 71% / 78% 27% 73% 22%;
+  border-radius: 48% 52% 29% 71% / 78% 27% 73% 22%;
+  border-width: 1px;
+  display: block;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.roca1:hover {
+    background-color: #F5E249;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.roca2{
+  width:75px ;
+  height:75px ;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  top:-0px;
+  left:1350px;
+  border-radius: 79% 21% 71% 29% / 47% 42% 58% 53%;
+  border-radius: 48% 52% 29% 71% / 78% 27% 73% 22%;
+  border-width: 1px;
+  display: block;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.roca2:hover {
+    background-color: #F5E249;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.roca3{
+  width:65px ;
+  height:65px ;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  top:-160px;
+  left:1020px;
+  border-radius: 48% 52% 29% 71% / 78% 27% 73% 22%;
+  border-width: 1px;
+  display: block;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.roca3:hover {
+    background-color: #F5E249;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.roca4{
+  width:65px ;
+  height:65px ;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  top:-350px;
+  left:1050px;
+  border-radius: 46% 54% 77% 23% / 27% 51% 49% 73%;
+  border-radius: 48% 52% 29% 71% / 78% 27% 73% 22%;
+  border-width: 1px;
+  display: block;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.roca4:hover {
+    background-color: #F5E249;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+#casita{
+  width:300px ;
+  height:320px ;
+  background-color: #424949;
+  position: absolute;
+  z-index: 20;
+  top:-0px;
+  left:600px;
+}
+
+.puerta3{
+  width:100px ;
+  height:130px ;
+  background-color: white;
+  position: absolute;
+  z-index: 23;
+  top:190px;
+  left: 102px;
+}
+
+p{
+  color: white;
+  font-family: helvetica;
+  font-size: 20pt;
+  text-align: center;
+  margin-top: 30px;
+
+}

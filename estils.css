@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-image: url("img/mar2.jpg");
+  background-size: cover;
+}
+
+#cabecera{
+  background-color: #036789;
+  width: 100%;
+  height: 90px;
+}
+
+h1{
+  line-height: 90px;
+  text-align: center;
+  color: white;
+}
+
+#contenedor{
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  height: 770px;
+  position:relative;
+  padding-top: 100px;
+  padding-left: 49px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+;
+}
+
+.qq{
+  height:210px;
+  width:210px;
+  background-color: #6BC4E3;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.qq p{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+
+}
+
+.qq:hover{
+  opacity: 50%;
+  scale:10%;
+}
+
+.qq img{
+  width: 100%;
+}

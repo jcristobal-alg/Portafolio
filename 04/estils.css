@@ -1,0 +1,119 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+#cabecera {
+  background-color: #FFF;
+  height: 40px;
+  background-image: url(img/feedly-logo-small-black.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
+#boton {
+  border-radius: 50%;
+  background: none;
+  background-color: grey;
+  text-align: center;
+  line-height: 200px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  float: right;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  ;
+}
+
+div {
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+p {
+  font-size: 18px;
+  font-family: helvetica;
+  line-height: 22px;
+  width: 350px;
+  margin-left: 25px;
+}
+
+h1 {
+  font-family: helvetica;
+  text-align: center;
+  width: 350px;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+ul {
+  text-align: right;
+  margin-top: 0px;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: purple;
+}
+
+a:visited {
+  color: green;
+}
+a:active {
+  color: red;
+}
+
+#coneix{
+  background-color: #CCC;
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+
+}
+
+#tot {
+  background-color: #EEECEE;
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+
+}
+
+#util {
+  background-color: lightblue;
+  height: 500px;
+  background-image: url(img/curator-short.png);
+
+}
+
+#rapid {
+  background-color: lightgreen;
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+
+}
+
+#facil {
+  background-color: salmon;
+  height: 550px;
+  background-image: url(img/mobile-share.png);
+
+}
+
+#arreu {
+  background-color: orange;
+  height: 643px;
+}
+
+#footer {
+  background-color: brown;
+  height: 200px;
+}
